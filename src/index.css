@@ -6,6 +6,12 @@
   padding: 0;
 }
 
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Ubuntu';
+}
+
 /* Navigation Bar */
 
 .Navbar {
@@ -80,4 +86,95 @@
 .hamburger:hover,
 .hamburger:hover .line {
   border-color: #64B5F6;
+}
+
+
+
+/* Introduction Section */
+
+.intro {
+  background: linear-gradient(180deg, #000000 0%, #243562 100%);
+  display: flex;
+  flex-direction: column;
+  height: 88vh;
+  width: 100%;
+}
+
+.intro-container-1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 70%;
+  /* background-color: aqua; */
+}
+
+.intro-logo-container {
+  width: 50%;
+  text-align: center;
+}
+
+.intro-para-container {
+  width: 50%;
+}
+
+.intro-para-container h1 {
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(0, 56, 255, 0) 267.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.underline {
+  border: 5px solid #123B60;
+  border-radius: 10px;
+  margin: 0.8rem 0;
+  width: 15%;
+}
+
+.intro-para {
+  background: linear-gradient(360deg, #FFFFFF 16.29%, rgba(79, 64, 173, 0) 272.47%);
+  background-clip: text;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  width: 80%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.intro-container-2 {
+  align-items: center;
+  /* background-color: skyblue; */
+  display: flex;
+  height: 25%;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.counter-card {
+  align-items: center;
+  background: linear-gradient(180deg, #111827 0%, #243562 100%);
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  height: 90%;
+  justify-content: center;
+  width: 20%;
+}
+
+#projects-icon {
+  width: 30%;
+  color: #004DE8;
+}
+
+#blogs-icon {
+  width: 30%;
+}
+
+#community-icon {
+  width: 48%;
+}
+
+#events-icon {
+  width: 30%;
 }

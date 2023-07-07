@@ -1,4 +1,5 @@
 import Blogs from "./Blogs";
+import Events from "./Events";
 import Intro from "./Intro";
 import Message from "./Message";
 import Navbar from "./Navbar";
@@ -15,6 +16,7 @@ function App() {
       <Question />
       <Projects />
       <Blogs />
+      <Events />
     </div>
   );
 }

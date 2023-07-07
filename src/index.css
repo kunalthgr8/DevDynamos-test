@@ -441,8 +441,8 @@ hr {
 }
 
 .blog-date {
-  width: 20%;
   font-size: 1.25rem;
+  width: 20%;
 }
 
 .blog-content {
@@ -455,8 +455,8 @@ hr {
 }
 
 .blog-title {
-  font-size: 1.25rem;
   color: #8C94A8;
+  font-size: 1.25rem;
   margin: 16px 0;
 }
 
@@ -466,12 +466,59 @@ hr {
 }
 
 .btn-small {
-  width: 13%;
   font-size: 1rem;
   height: 40px;
   margin: 18px 0;
+  width: 13%;
 }
 
 #BsFillArrowRightCircleFill {
   padding-left: 5px;
+}
+
+
+
+/* Events Section */
+
+.event {
+  background: linear-gradient(180deg, #243562 0%, #000000 100%);
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 3% 10%;
+}
+
+.event-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.event-item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 26%;
+}
+
+.event-item img {
+  cursor: pointer;
+  width: 75%;
+}
+
+.event-item span {
+  display: none;
+  font-size: 1.875rem;
+  margin-top: 15px;
+}
+
+.event-item p {
+  display: none;
+  font-size: 1.375rem;
+  margin: 20px 0;
+  text-align: center;
 }

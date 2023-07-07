@@ -1,6 +1,7 @@
 import Blogs from "./Blogs";
 import Contact from "./Contact";
 import Events from "./Events";
+import Footer from "./Footer";
 import Intro from "./Intro";
 import Message from "./Message";
 import Navbar from "./Navbar";
@@ -13,12 +14,19 @@ function App() {
     <div className="App">
       <Navbar />
       <Intro />
+      <hr />
       <Message />
+      <hr />
       <Question />
+      <hr />
       <Projects />
+      <hr />
       <Blogs />
+      <hr />
       <Events />
+      <hr />
       <Contact />
+      <Footer />
     </div>
   );
 }

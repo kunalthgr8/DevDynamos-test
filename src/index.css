@@ -570,15 +570,16 @@ label {
   margin: 10px 0 4px 0;
 }
 
-#contact-description, input {
-  font-family: 'Ubuntu';
-  font-size: 1rem;
-  text-align: center;
+#contact-description,
+input {
   background-color: transparent;
   border: 2px solid white;
   border-radius: 10px;
-  padding: 20px;
   color: white;
+  font-family: 'Ubuntu';
+  font-size: 1rem;
+  padding: 20px;
+  text-align: center;
 }
 
 ::placeholder {
@@ -587,6 +588,59 @@ label {
 }
 
 .submit-btn {
-  width: 23%;
   margin: 20px auto;
+  width: 23%;
+}
+
+
+
+/* Footer Section */
+
+
+.footer-line {
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.footer-options {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 80%;
+}
+
+.openlake {
+  background: linear-gradient(180deg, #64B5F6 0%, #111827 267.44%);
+  background-clip: text;
+  font-size: 3.75rem;
+  font-weight: 600;
+  width: 40%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icon-list {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 60%;
+}
+
+.icon {
+  margin: 10px 5px;
+  width: 10%;
+}
+
+.icon img {
+  width: 80%;
+}
+
+.copyright {
+  color: #00C9F5;
+  font-size: 0.85rem;
+  margin: 5px 0;
+  text-align: center;
 }

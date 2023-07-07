@@ -367,9 +367,11 @@ hr {
 .btn {
   align-items: center;
   background: linear-gradient(180deg, #2F4E9D -123.1%, #0E3089 133.04%);
+  border: none;
   border-radius: 11px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.72);
   color: #EEEEEE;
+  cursor: pointer;
   display: flex;
   font-family: 'Barlow';
   font-size: 20px;
@@ -380,7 +382,6 @@ hr {
   line-height: 24px;
   padding: 0 15px;
   text-align: center;
-  cursor: pointer;
 }
 
 .head-right {
@@ -466,6 +467,7 @@ hr {
 }
 
 .btn-small {
+  background: linear-gradient(180deg, #6359A0 0%, #0056A4 100%);
   font-size: 1rem;
   height: 40px;
   margin: 18px 0;
@@ -521,4 +523,70 @@ hr {
   font-size: 1.375rem;
   margin: 20px 0;
   text-align: center;
+}
+
+
+
+/* Final Section */
+
+.contact {
+  background: linear-gradient(180deg, #000000 0%, #243562 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 3% 10%;
+  padding-bottom: 0;
+}
+
+.join-btn {
+  background: linear-gradient(113.14deg, #6517A3 1.94%, #123B60 56.78%);
+  border-radius: 14px;
+  box-shadow: 0px 5px 4px #000000;
+  cursor: pointer;
+  height: 20%;
+  margin: 2rem 0;
+  text-align: center;
+  width: 45%;
+}
+
+.join-btn img {
+  padding: 15px;
+  width: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  padding: 12px;
+  width: 100%;
+}
+
+label {
+  font-size: 1.5rem;
+  margin: 10px 0 4px 0;
+}
+
+#contact-description, input {
+  font-family: 'Ubuntu';
+  font-size: 1rem;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  opacity: 70%;
+}
+
+.submit-btn {
+  width: 23%;
+  margin: 20px auto;
 }

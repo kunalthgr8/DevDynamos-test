@@ -1,4 +1,5 @@
 import Blogs from "./Blogs";
+import Contact from "./Contact";
 import Events from "./Events";
 import Intro from "./Intro";
 import Message from "./Message";
@@ -17,6 +18,7 @@ function App() {
       <Projects />
       <Blogs />
       <Events />
+      <Contact />
     </div>
   );
 }

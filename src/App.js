@@ -1,6 +1,7 @@
 import Intro from "./Intro";
 import Message from "./Message";
 import Navbar from "./Navbar";
+import Projects from "./Project";
 import Question from "./Question";
 
 
@@ -11,6 +12,7 @@ function App() {
       <Intro />
       <Message />
       <Question />
+      <Projects />
     </div>
   );
 }

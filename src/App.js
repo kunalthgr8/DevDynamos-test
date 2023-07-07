@@ -1,6 +1,7 @@
 import Intro from "./Intro";
 import Message from "./Message";
 import Navbar from "./Navbar";
+import Question from "./Question";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Intro />
       <Message />
+      <Question />
     </div>
   );
 }

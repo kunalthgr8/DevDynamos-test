@@ -1,4 +1,5 @@
 import Intro from "./Intro";
+import Message from "./Message";
 import Navbar from "./Navbar";
 
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Intro />
+      <Message />
     </div>
   );
 }

@@ -13,7 +13,7 @@ const Intro = () => {
                 </div>
                 <div className="intro-para-container">
                     <h1>OpenLake</h1>
-                    <div className="underline"></div>
+                    <div className="underline-intro"></div>
                     <p className="intro-para">
                         As the world is moving towards a connected society. The communities driving the development of open source technologies are becoming more prominent. With the importance of Open Source made crystal clear. There is one problem that needs to be addressed: Connecting people with Open Source Communities. The idea of OpenLake is to act as a bridge between Students and the World of Open Source Development.
                     </p>

@@ -31,6 +31,11 @@ body {
   width: 15%;
 }
 
+hr {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
 /* Navigation Bar */
 
 .Navbar {
@@ -406,10 +411,67 @@ body {
   padding: 2px 12px;
 }
 
-.project-box img{
+.project-box img {
   border-radius: 0 0 12px 12px;
   border-top: 2px solid white;
   height: 100%;
   margin-top: 5px;
   width: 100%;
+}
+
+
+/* Blogs Section */
+
+.blogs {
+  background: linear-gradient(180deg, #000000 0%, #243562 100%);
+  display: flex;
+  flex-direction: column;
+  height: 88vh;
+  max-width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 3% 10%;
+}
+
+.blog-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.blog-date {
+  width: 20%;
+  font-size: 1.25rem;
+}
+
+.blog-content {
+  width: 75%;
+}
+
+.blog-heading {
+  font-size: 1.625rem;
+  margin-bottom: 10px;
+}
+
+.blog-title {
+  font-size: 1.25rem;
+  color: #8C94A8;
+  margin: 16px 0;
+}
+
+.blog-desc {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+
+.btn-small {
+  width: 13%;
+  font-size: 1rem;
+  height: 40px;
+  margin: 18px 0;
+}
+
+#BsFillArrowRightCircleFill {
+  padding-left: 5px;
 }

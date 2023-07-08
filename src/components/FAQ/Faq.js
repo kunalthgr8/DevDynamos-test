@@ -29,35 +29,48 @@ const Faq = () => {
         }
     ];
 
-    const [openItems, setOpenItems] = useState([]);
+  const [openItems, setOpenItems] = useState([]);
 
-    const toggleAccordion = (index) => {
-        const isOpen = openItems.includes(index);
-        if (isOpen) {
-            setOpenItems(openItems.filter((item) => item !== index));
-        } else {
-            setOpenItems([...openItems, index]);
-        }
-    };
+  const toggleAccordion = (index) => {
+    const isOpen = openItems.includes(index);
+    if (isOpen) {
+      setOpenItems(openItems.filter((item) => item !== index));
+    } else {
+      setOpenItems([...openItems, index]);
+    }
+  };
 
-    return (
-        <div className="accordion">
-            {data.map((item, index) => (
-                <div className="accordion-item" key={index}>
-                    <div className="accordion-header" onClick={() => toggleAccordion(index)}>
-                        <h3 className="accordion-title">{item.question}</h3>
-                        <span className="accordion-icon">{openItems.includes(index) ? '-' : '+'}</span>
-                    </div>
-                    {openItems.includes(index) && (
-                        <div className="accordion-content">
-                            <p>{item.answer}</p>
-                        </div>
-                    )}
-                </div>
-            ))}
-        </div>
-    );
+  const getHeaderBorderRadius = (index) => {
+    return openItems.includes(index) ? '20px 20px 0 0' : '20px ';
+  };
+
+  return (
+    <div className="accordion">
+      <div className='faq-heading'>
+        FAQ's
+        <hr className='faq-hr'></hr>
+      </div>
+      <div className='faq-questions-container'>
+        {data.map((item, index) => (
+          <div className="accordion-item" key={index}>
+            <div
+              className="accordion-header"
+              onClick={() => toggleAccordion(index)}
+              style={{ borderRadius: getHeaderBorderRadius(index) }}
+            >
+              <h3 className="accordion-title">{item.question}</h3>
+              <span className="accordion-icon">{openItems.includes(index) ? '-' : '+'}</span>
+            </div>
+            {openItems.includes(index) && (
+              <div className="accordion-content">
+                <p>{item.answer}</p>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default Faq;
-

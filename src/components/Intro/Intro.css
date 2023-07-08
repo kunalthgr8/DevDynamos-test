@@ -20,6 +20,7 @@
 
 .intro-logo {
     margin: 10px;
+    margin-left: 100px;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -69,6 +70,10 @@ hr {
     .intro-container-2 {
       display: flex; 
       flex-wrap: wrap;
+    }
+    .intro-logo {
+        margin: 10px;
+        
     }
   }
   

@@ -1,0 +1,50 @@
+.message-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px;
+    margin: 10px; */
+    /* gap: 10px; */
+    justify-content: space-evenly;
+    width: 300px;
+    background-color:linear-gradient(to right, #000000 100%, #424242 0%);
+}
+.message-card-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 50%;
+    margin-top: 5px;
+}
+.message-card-pic img{
+    margin: 10px;
+    border-radius: 100%;
+    height: 100px;
+}
+.message-card-message{
+    width: 70%;
+    font-size: 18px;
+    padding: 10px;
+}
+.message-card-message p{
+    padding: 10px;
+}
+
+.message-card-name{
+    font-size: 20px;
+    font-weight: 600;
+}
+.message-card-socials{
+    display: flex;
+
+}
+.message-card-socials img{
+    margin: 10px;
+    height: 50px;
+}
+.before-name{
+    width: 50%;
+    border: 2px solid gray;
+}

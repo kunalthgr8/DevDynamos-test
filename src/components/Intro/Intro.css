@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+.intro {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #000000 0%, #243562 100%);
+    width: 100%;
+    height: 100%;
+    /* margin-bottom: 100px; */
+}
+
+.intro-container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.intro-logo {
+    margin: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-logo img {
+    margin: 10px;
+    height: 300px;
+}
+
+.intro-para {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-heading {
+    color: linear-gradient(to right, white, #0038FF00);
+    font-size: 48px;
+    padding: 10px;
+    font-weight: 700;
+    margin: 8px;
+}
+
+hr {
+    width: 150px;
+    margin-top: 5px;
+    border: 5px solid #0056A4;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.intro-paragraph {
+    padding: 10px;
+    margin: 10px;
+    color: linear-gradient(360deg, #FFFFFF 16.29%, rgba(79, 64, 173, 0) 272.47%);
+    font-size: 24px;
+    width: 70%;
+    font-weight: 600;
+}
+.intro-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  @media (max-width: 1089px) {
+    .intro-container-2 {
+      display: flex; 
+      flex-wrap: wrap;
+    }
+  }
+  
+
+/* THIS FLEX WRAPS THE CONATINER */
+@media (max-width: 1089px) {
+    .intro-container-1 {
+        flex-wrap: wrap;
+    }
+
+    .intro-para {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .intro-paragraph {
+        width: 90%;
+    }
+
+    hr {
+        margin-top: 10px;
+        width: 200px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 525px) {
+    .intro-paragraph {
+        font-size: 18px;
+        font-weight: 600;
+        /* text-align: center; */
+    }
+}
+
+@media (max-width: 408px) {
+    .intro-logo img {
+        height: 200px;
+    }
+
+    .intro-paragraph {
+        font-size: 15px;
+    }
+}

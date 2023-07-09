@@ -4,6 +4,7 @@ import Message from "./components/Message/Message";
 import Navbar from "./components/NavBar/Navbar";
 import Projects from "./components/Projects/Project";
 import Main from "./components/MainPage/Main";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Message />
       <Faq/>
       <Projects />
+      <Contact/>
     </div>
   );
 }

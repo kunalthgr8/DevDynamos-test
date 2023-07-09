@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+.projects {
+    background: linear-gradient(180deg, #243562 0%, #000000 100%);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-heading {
+    font-size: 40px;
+    margin: 10px;
+    width: 80%;
+    padding: 10px;
+    margin-top: 80px;
+}
+
+.project-hr {
+    margin-left: 0;
+    margin-top: 20px;
+    border: none;
+    height: 10px;
+    width: 150px;
+    background: #0056A4;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 10px;
+    width: 80%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.card h2 {
+    background-color: #D9D9D9;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 550;
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
+    /* border: 2px solid #D9D9D9; */
+
+}
+
+.card img {
+    width: 100%;
+    /* border-left: 1px solid #D9D9D9; */
+    /* padding: 1px; */
+    margin-bottom: 0;
+
+}
+
+.content {
+    margin-top: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111827;
+    border: 2px solid #D9D9D9;
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+    font-size: 20px;
+    /* line-height: 2px; */
+    transition: 1s;
+    letter-spacing: 1px;
+    height: 200px;
+}
+
+.content p {
+    margin: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #2F4E9D -123.1%, #0E3089 133.04%);
+    border-radius: 11px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.72);
+    color: #EEEEEE;
+    font-size: 20px;
+    font-weight: 550;
+    height: 56px;
+    line-height: 24px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1094px) {
+    .content p {
+        margin: 0;
+    }
+
+    .content {
+        padding: 0;
+    }
+}
+
+@media (max-width: 964px) {
+    .card {
+        width: 400px;
+    }
+}
+
+@media (max-width: 520px) {
+    .card {
+        width: 95%;
+    }
+
+    .project-container {
+        width: 90%;
+    }
+
+    .content {
+        font-size: 16px;
+    }
+}

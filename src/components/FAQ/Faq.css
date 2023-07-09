@@ -21,7 +21,8 @@
   margin-top: 20px;
   border: none;
   height: 10px;
-  background: linear-gradient(to right, #123B60, #28253D);
+  width: 150px;
+  background:#0056A4;
 }
 
 .faq-questions-container {
@@ -30,7 +31,7 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 15px;
-  width: 80%;
+  width: 90%;
   margin-top: 30px;
   padding-left: 0px;
 }
@@ -56,7 +57,7 @@
 
 .accordion-header h3 {
   margin: 0;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -79,4 +80,18 @@
   border-top-right-radius: 0;
   padding-left: 30px;
   padding-right: 30px;
+}
+
+@media (max-width: 800px) {
+  .accordion-item {
+    width: 70%;
+  }
+}
+
+@media (max-width: 500px) {
+  .accordion-item {
+    margin-left: 30px;
+    /* margin-right: auto; */
+    width: 90%;
+  }
 }

@@ -1,20 +1,18 @@
 import Faq from "./components/FAQ/Faq";
 import Intro from "./components/Intro/Intro";
-// import Message from "./components/Message/Message";
-import Navbar from "./components/NavBar/Navbar";
-// import Projects from "./components/Project";
-// import Question from "./components/Question";
+import Message from "./components/Message/Message";
 
+import Navbar from "./components/NavBar/Navbar";
+import Projects from "./components/Projects/Project";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Intro />
+      <Message />
       <Faq/>
-      {/* <Message /> */}
-      {/* <Question /> */}
-      {/* <Projects /> */}
+      <Projects />
     </div>
   );
 }

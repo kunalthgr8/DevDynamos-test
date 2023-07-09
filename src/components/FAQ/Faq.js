@@ -2,32 +2,32 @@ import React, { useState } from 'react';
 import "./Faq.css";
 
 const Faq = () => {
-    const data = [
-        {
-            question: "Accordion 1",
-            answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-            question: "Accordion 2",
-            answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-            question: "Accordion 3",
-            answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-            question: "Accordion 4",
-            answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-            question: "Accordion 5",
-            answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-            question: "Accordion 6",
-            answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        }
-    ];
+  const data = [
+    {
+      question: "Accordion 1",
+      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      question: "Accordion 2",
+      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      question: "Accordion 3",
+      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      question: "Accordion 4",
+      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      question: "Accordion 5",
+      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      question: "Accordion 6",
+      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  ];
 
   const [openItems, setOpenItems] = useState([]);
 
@@ -41,7 +41,7 @@ const Faq = () => {
   };
 
   const getHeaderBorderRadius = (index) => {
-    return openItems.includes(index) ? '20px 20px 0 0' : '20px ';
+    return openItems.includes(index) ? '15px 15px 0 0' : '15px ';
   };
 
   return (

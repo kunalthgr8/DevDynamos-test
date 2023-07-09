@@ -24,22 +24,22 @@ const Intro = () => {
             <div className="intro-container-2">
                 <NumCard
                     icon={project_icon}
-                    number="500+"
+                    number="500"
                     label="Projects"
                 />
                 <NumCard
                     icon={blog_icon}
-                    number="1000+"
+                    number="1000"
                     label="Blogs"
                 />
                 <NumCard
                     icon={community_icon}
-                    number="2000+"
+                    number="2000"
                     label="Members"
                 />
                 <NumCard
                     icon={event_icon}
-                    number="50+"
+                    number="50"
                     label="Events"
                 />
             </div>

@@ -20,6 +20,7 @@ function MessCard({ mentor_pic, mentor_message, mentor_name, mentor_github, ment
                 <a href={mentor_insta} target="_blank">   <img src={instagram} alt="Instagram" /></a>
             </div>
         </div>
+        
     );
 }
 

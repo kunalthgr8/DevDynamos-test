@@ -50,7 +50,7 @@
   background-color: #111827;
   cursor: pointer;
   border: 2px solid white;
-  border-radius: 15px;
+  border-radius: 12px;
   padding-left: 30px;
   padding-right: 30px;
 
@@ -76,7 +76,7 @@
   background-color: #111827;
   cursor: pointer;
   border: 2px solid white;
-  border-radius: 15px;
+  border-radius: 12px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   padding-left: 30px;

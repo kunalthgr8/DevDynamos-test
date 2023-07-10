@@ -41,7 +41,7 @@ const Faq = () => {
   };
 
   const getHeaderBorderRadius = (index) => {
-    return openItems.includes(index) ? '15px 15px 0 0' : '15px ';
+    return openItems.includes(index) ? '12px 12px 0 0' : '12px ';
   };
 
   return (

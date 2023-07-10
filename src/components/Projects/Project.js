@@ -13,7 +13,7 @@ const Projects = () => {
       projectName: "Canon Forces",
       projectImage: canonforces,
       projectDescription:
-        "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+        "The majestic sun set over the vast horizon, casting hues of orange and pink across the sky. Birds soared gracefully, while waves crashed against the shore, creating a soothing symphony of nature's beauty.",
       projectTechStack: ["HTML", "CSS", "JavaScript", "React"],
     },
     {
@@ -38,21 +38,6 @@ const Projects = () => {
       projectTechStack: ["HTML", "CSS", "JavaScript", "React"],
     },
   ];
-  const [openItems, setOpenItems] = useState([]);
-
-  const toggleAccordion = (index) => {
-    const isOpen = openItems.includes(index);
-    if (isOpen) {
-      setOpenItems(openItems.filter((item) => item !== index));
-    } else {
-      setOpenItems([...openItems, index]);
-    }
-  };
-
-  const getHeaderBorderRadius = (index) => {
-    return openItems.includes(index) ? ' 0' : '0 0 15px 15px ';
-  };
-
 
   return (
     <div className="projects">
@@ -62,33 +47,51 @@ const Projects = () => {
       </div>
       <div className="project-container" >
         {data2.map((item, index) => (
-          <div className="card" key={index}
-
-          >
-            <h2>{item.projectName}</h2>
-            <div className="imgbox"
-            >
-              <img
-                src={item.projectImage}
-                onClick={() => toggleAccordion(index)}
-                style={{ borderRadius: getHeaderBorderRadius(index) }}
-                alt=""
-              />
+          <div className="card">
+            <div className="circle"></div>
+            <div className="content">
+              <h2>{item.projectName}</h2>
+              <p>
+                {item.projectDescription}
+              </p>
+              <a href="#">Read More</a>
             </div>
-            {openItems.includes(index) &&
-              <div className="content" >
-                <p>
-                  {item.projectDescription}
-                </p>
-
-              </div>
-            }
+            <div className="img-box">
+              <h2>{item.projectName}</h2>
+              <img src={item.projectImage}></img>
+            </div>
           </div>
         ))}
+        {/* {data2.map((item, index) => (
+          <div className="card" key={index}>
+            <div className="imgbox">
+              <div className="img-heading">
+                {item.projectName}
+              </div>
+              <img
+                src={item.projectImage}
+                alt="Project Image"
+              />
+            </div>
+            <div className="project-desc">
+            <div className="project-h2">
+            <h2>{item.projectName}</h2>
+            </div>
+            <div className="content" >
+              <p>
+                {item.projectDescription}
+              </p>
+            </div>
+            <div>
+              <button className="project-button">Explore</button>
+            </div>
+            </div>
+          </div>
+        ))} */}
       </div>
-      <div className="prject-button">
+      {/* <div className="prject-button">
         <button className="btn">More Projects</button>
-      </div>
+      </div> */}
     </div>
   );
 };

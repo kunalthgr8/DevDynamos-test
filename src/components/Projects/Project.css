@@ -88,15 +88,13 @@
     margin: 5px;
     width: 80%;
     padding: 4px;
-   
     color: #0056A4;
-    
     line-height: 1em;
   }
   
   .content-hr {
     margin-left: 0;
-    margin-top: 5px;
+    margin-top: 8px;
     border: none;
     height: 4px;
     width: 60%;

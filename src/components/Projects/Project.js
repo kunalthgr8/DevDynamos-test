@@ -50,7 +50,10 @@ const Projects = () => {
           <div className="card">
             <div className="circle"></div>
             <div className="content">
+              <div className="content-heading">
               <h2>{item.projectName}</h2>
+              <hr className="content-hr"></hr>
+              </div>
               <p>
                 {item.projectDescription}
               </p>

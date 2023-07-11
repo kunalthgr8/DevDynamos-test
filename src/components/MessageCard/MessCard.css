@@ -1,50 +1,71 @@
-.message-card{
+.card-list {
+    /* background-color: skyblue; */
+    margin: 3%;
+}
+
+.message-card {
+    background-color: black;
+    width: 80%;
+    margin: 5px 0 20px 45px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    /* padding: 10px;
-    margin: 10px; */
-    /* gap: 10px; */
-    justify-content: space-evenly;
-    width: 300px;
-    background-color:linear-gradient(to right, #000000 100%, #424242 0%);
-}
-.message-card-pic{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5px;
-    width: 50%;
-    margin-top: 5px;
-}
-.message-card-pic img{
-    margin: 10px;
-    border-radius: 100%;
-    height: 100px;
-}
-.message-card-message{
-    width: 70%;
-    font-size: 18px;
-    padding: 10px;
-}
-.message-card-message p{
-    padding: 10px;
+    border-radius: 30px;
 }
 
-.message-card-name{
-    font-size: 20px;
-    font-weight: 600;
+.message-card-pic {
+    width: 50%;
+    margin: 10px;
 }
+
+.message-card-pic img {
+    width: 100%;
+}
+
+.message-card-message {
+    margin: 10px;
+    /* height: 250px; */
+    text-align: center;
+    line-height: 1.3rem;
+}
+
+.before-name {
+    width: 50%;
+    margin: 10px;
+    border: 4px solid #676060;
+}
+
+.message-card-name {
+    margin: 10px;
+}
+
 .message-card-socials{
     display: flex;
-
+    margin: 10px;
 }
 .message-card-socials img{
     margin: 10px;
     height: 50px;
 }
-.before-name{
-    width: 50%;
-    border: 2px solid gray;
+
+
+/* Don't change these without consent */
+.react-multiple-carousel__arrow--right {
+    right: calc(1% + 1px);
+}
+
+.react-multiple-carousel__arrow--left {
+    left: calc(1% + 1px);
+}
+
+.react-multi-carousel-dot--active button {
+    background: #00C9F5;
+}
+
+.react-multiple-carousel__arrow {
+    background: linear-gradient(180deg, #2674fc, #6a12cb);
+}
+
+.react-multiple-carousel__arrow:hover {
+    background: linear-gradient(180deg, #6a12cb, #2674fc);
 }

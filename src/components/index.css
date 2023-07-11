@@ -39,7 +39,7 @@ body {
 
 /* Message Section */
 
-.message {
+/* .message {
   background: linear-gradient(180deg, #243562 0%, #000000 100%);
   display: flex;
   flex-direction: column;
@@ -125,7 +125,7 @@ body {
   height: 100%;
   margin: 0 0.75%;
   width: 1.3%;
-}
+} */
 
 
 /* FAQ Section */

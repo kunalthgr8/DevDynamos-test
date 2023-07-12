@@ -20,39 +20,35 @@ export default function Contact() {
         e.target.reset()
     };
     return (
-        <div className="contact" id="Contacts">
-            <div className="content-contact">
-                <div className="contact-container">
-                    <div className="contact-heading">Join Us
-                        <hr className="contact-hr"></hr>
-                    </div>
-                    <div className="options-contact">
-                        <div className="icons-contact">
-                            <a href="mailto:kunalsingla@iitbhilai.ac.in"><img src={github_img} alt="Github"></img></a>
-                        </div>
-                        <div className="icons-contact">
-                            <a href="mailto:kunalsingla@iitbhilai.ac.in"><img src={linkedin_img} alt="Linked In "></img></a>
-                        </div>
-                    </div>
-
+        <div className="contact-page" id="Contacts">
+            <div className="contact-container">
+                <div className="contact-heading">Join Us
+                    <hr className="contact-hr"></hr>
                 </div>
-                <div className="contact-message">
-                    <div className="contact-heading">Any Queries ?
-                        <hr className="contact-hr"></hr>
+                <div className="options-contact">
+                    <div className="icons-contact">
+                        <a href="mailto:kunalsingla@iitbhilai.ac.in"><img src={github_img} alt="Github"></img></a>
                     </div>
-                    <div className="contact-form">
+                    <div className="icons-contact">
+                        <a href="mailto:kunalsingla@iitbhilai.ac.in"><img src={linkedin_img} alt="Linked In "></img></a>
+                    </div>
+                </div>
+            </div>
+            <div className="contact-container-2">
+                <div className="contact-heading">Any Queries ?
+                    <hr className="contact-hr"></hr>
+                </div>
+                <div className="contact-form">
                     <form ref={form} onSubmit={sendEmail}>
-                        {/* <label>Name :</label> */}
+
                         <input type="text" name="name" placeholder="Your Full Name" required />
-                        {/* <label>Email :</label> */}
+
                         <input type="email" name="email" placeholder="Your Email" required />
-                        {/* <label>Message :</label> */}
+
                         <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
                         <button type="submit" className="btn-contact"> Send Message</button>
                     </form>
-                    </div>
                 </div>
-
             </div>
         </div>
     )

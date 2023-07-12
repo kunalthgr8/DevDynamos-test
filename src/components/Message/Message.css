@@ -1,7 +1,133 @@
 .message {
     background: linear-gradient(180deg, #243562 0%, #000000 100%);
+    overflow-x: scroll;
 }
 
 .message-head {
     padding: 3% 10% 0 10%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #424242;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.message-card {
+    display: flex;
+    width: 180%;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.message-preview {
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 0 30px;
+    padding: 10px 20px;
+    background: linear-gradient(to right, black, #424242);
+    display: flex;
+    /* height: 500px; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+}
+
+.message-profile-pic {
+    width: 30%;
+    border: none;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: skyblue;
+}
+
+.message-profile-pic img {
+    width: 100%;
+}
+
+.message-description {
+    margin: 10px;
+    line-height: 22px;
+}
+
+.message-hr {
+    border: 3px solid white;
+    margin: 10px;
+    width: 40%;
+}
+
+.message-author {
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.message-social-media {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.message-social-media img {
+    width: 15%;
+}
+
+@media screen and (max-width: 1200px) {
+    .message-card {
+        width: 250%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .message-card {
+        width: 300%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .message-card {
+        width: 350%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .message-card {
+        width: 450%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .message-card {
+        width: 500%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .message-card {
+        width: 50%;
+    }
+
+    .message-preview {
+        width: 180px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 260px) {
+    .message-card {
+        width: 50%;
+    }
+
+    .message-preview {
+        width: 160px;
+        font-size: 12px;
+    }
 }

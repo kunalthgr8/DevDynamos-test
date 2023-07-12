@@ -2,7 +2,7 @@ import Faq from "./components/FAQ/Faq";
 import Intro from "./components/Intro/Intro";
 import Message from "./components/Message/Message";
 import Navbar from "./components/NavBar/Navbar";
-import Projects from "./components/Projects/Projects";
+// import Projects from "./components/Projects/Projects";
 import Main from "./components/MainPage/Main";
 import Contact from "./components/Contact/Contact";
 import BlogPage from "./components/Blogs/BlogPage";
@@ -15,7 +15,7 @@ function App() {
       <Intro />
       <Message />
       <Faq/>
-      <Projects />
+      {/* <Projects /> */}
       <BlogPage/>
       <Contact/>
     </div>

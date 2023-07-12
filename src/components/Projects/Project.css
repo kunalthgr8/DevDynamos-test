@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 120px;
+    color: white;
 }
 
 .project-heading {
@@ -32,13 +33,15 @@
 .project-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     /* padding: 30px; */
     margin: 10px;
-    width: 80%;
+    /* max-width: 100%; */
+    width: 100%;
     gap: 20px;
     height: 70vh;
+    /* overflow-x: scroll; */
 }
 
 .card{

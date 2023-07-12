@@ -1,3 +1,7 @@
+.message {
+    background: linear-gradient(180deg, #243562 0%, #000000 100%);
+}
+
 .message-head {
     padding: 3% 10% 0 10%;
 }

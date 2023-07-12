@@ -107,5 +107,39 @@
             "description": "If you’ve been holding out for an iMac loaded up with a new M3 chip, there’s bad news: it might be delayed until next year. It means an even longer wait for anyone who wants an all-in-one Apple computer with an upgraded chip — right now, the M1 chip in the current 24-inch iMac is over two years old.The news on the iMac postponement comes from the Power On newsletter published by journalist Mark Gurman, who has released accurate information about Apple’s upcoming products many times in the past.",
             "photo": "Tulip-modified.png"
         }
+    ],
+    "projects" : [
+        {
+            "id" : "1",
+            "title" : "CanonForces",
+            "author" : "Adarsh Anand",
+            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, omnis veritatis! Sint repellendus iste commodi aliquid vitae accusantium iure saepe assumenda. Suscipit praesentium magni ab doloremque earum facilis sit molestiae non cumque dolor esse, sed in aliquam eligendi recusandae ea maxime repudiandae porro itaque consectetur. Recusandae harum earum eaque itaque impedit! Sequi neque magni ullam facere quia dicta voluptatum animi!",
+            "photo" : "canonforces2.png",
+            "link" : "https://github.com/OpenLake/canonforces"
+        },
+        {
+            "id" : "2",
+            "title" : "Activity Tracker",
+            "author" : "Ambar",
+            "description" : "We spend a lot of their time on screens and it's quite easy to lose track of the time we spend digitally. There are existing solutions to track their life but most of them are either paid, steal personal data or aren't visually appealing. That's why we decided to build this project. It will collect data on Mobile as well as Desktop devices and show them in a Progressive Web App(PWA).",
+            "photo" : "activitytracker.png",
+            "link" : "https://github.com/OpenLake/Activity-Tracker"
+        },
+        {
+            "id" : "3",
+            "title" : "Photo Sharing",
+            "author" : "Aneesh Tickoo",
+            "description" : "Photo Sharing App is a web app that allows a user to get group photos that include them without having to keep or sort through all of the photos, saving them time and storage space. When a photo is uploaded, the app identifies the faces in it and arranges them according to the users who have been identified. Each identified user gets a separate album with all their photos allowing them to get the photos they need seamlessly. Upload group photos, arrange them by faces using ML and share them with ease.",
+            "photo" : "photosharing.png",
+            "link" : "https://github.com/OpenLake/Photo-Sharing-App"
+        },
+        {
+            "id" : "4",
+            "title" : "Knowledge Sharing Platform",
+            "author" : "Anshuman Dhiman",
+            "description" : "Knowledge sharing platform application aims to get the students acquainted with the courses, professors, evaluation schemes. The said things can be achieved via gathering course feedback, professor feedback, and previous year grading schemes. This can be done by making a portal (just like a blog site) where people can share their honest reviews without being scrutinized much. Getting reviews from mass makes it easy for one to choose the particular course and get the right information about that course.",
+            "photo" : "ksp.png",
+            "link" : "https://github.com/OpenLake/Knowledge-Sharing-Platform"
+        }
     ]
 }

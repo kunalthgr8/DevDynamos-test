@@ -6,6 +6,7 @@ import Navbar from "./components/NavBar/Navbar";
 import Main from "./components/MainPage/Main";
 import Contact from "./components/Contact/Contact";
 import BlogPage from "./components/Blogs/BlogPage";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       {/* <Projects /> */}
       <BlogPage/>
       <Contact/>
+      <Footer />
     </div>
   );
 }

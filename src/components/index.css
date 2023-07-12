@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Ubuntu';
+}
+
+.primary-color {
+  background-color: #00C9F5;
+}
+
+.secondary-color {
+  background-color: #D9D9D9;
+}
+
+.heading {
+  font-size: 3rem;
+}
+
+.underline {
+  border: 5px solid #0056A4;
+  border-radius: 10px;
+  margin: 0.8rem 0;
+  width: 15%;
+}
+
+/* Navigation Bar */
+
+
+
+/* Introduction Section */
+
+/* Message Section */
+
+/* .message {
+  background: linear-gradient(180deg, #243562 0%, #000000 100%);
+  display: flex;
+  flex-direction: column;
+  height: 88vh;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 3% 10%;
+}
+
+.message-slider {
+  align-items: center;
+  display: flex;
+  height: 70%;
+  justify-content: space-between;
+  margin: 5% 0;
+}
+
+.arrow {
+  border-radius: 50%;
+  height: 19%;
+  text-align: center;
+  width: 8%;
+}
+
+.arrow img {
+  cursor: pointer;
+  width: 100%;
+}
+
+.message-card {
+  align-items: center;
+  background: linear-gradient(151.51deg, #000000 11.71%, rgba(66, 66, 66, 0) 112.21%);
+  border-radius: 0.875rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  width: 25%;
+}
+
+.message-card-1 {
+  width: 50%;
+}
+
+.message-card-1 img {
+  width: 100%;
+}
+
+.message-card-2 {
+  font-size: 1.25rem;
+  height: 25%;
+  margin: 5% 0;
+  width: 80%;
+}
+
+.message-card-3 {
+  border: 3px solid #676060;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.message-card-4 {
+  font-size: 0.9375rem;
+  margin: 5% 0;
+}
+
+.message-card-5 img {
+  cursor: pointer;
+  margin: 5%;
+  width: 20%;
+}
+
+.message-circle {
+  display: flex;
+  height: 2%;
+  justify-content: center;
+}
+
+.ellipse {
+  border-radius: 50%;
+  cursor: pointer;
+  height: 100%;
+  margin: 0 0.75%;
+  width: 1.3%;
+} */
+
+
+/* FAQ Section */
+
+
+/* Projects Section */
+
+.contact {
+  background: linear-gradient(180deg, #000000 0%, #243562 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 3% 10%;
+  padding-bottom: 0;
+}
+
+.join-btn {
+  background: linear-gradient(113.14deg, #6517A3 1.94%, #123B60 56.78%);
+  border-radius: 14px;
+  box-shadow: 0px 5px 4px #000000;
+  cursor: pointer;
+  height: 20%;
+  margin: 2rem 0;
+  text-align: center;
+  width: 45%;
+}
+
+.join-btn img {
+  padding: 15px;
+  width: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  padding: 12px;
+  width: 100%;
+}
+
+label {
+  font-size: 1.5rem;
+  margin: 10px 0 4px 0;
+}
+
+#contact-description,
+input {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Ubuntu';
+  font-size: 1rem;
+  padding: 20px;
+  text-align: center;
+}
+
+::placeholder {
+  color: white;
+  opacity: 70%;
+}
+
+.submit-btn {
+  margin: 20px auto;
+  width: 23%;
+}

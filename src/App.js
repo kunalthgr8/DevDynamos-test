@@ -1,25 +1,24 @@
-import Blogs from "./Blogs";
-import Contact from "./Contact";
-import Events from "./Events";
-import Footer from "./Footer";
-import Intro from "./Intro";
-import Message from "./Message";
-import Navbar from "./Navbar";
-import Projects from "./Project";
-import Question from "./Question";
-
+import Faq from "./components/FAQ/Faq";
+import Intro from "./components/Intro/Intro";
+import Message from "./components/Message/Message";
+import Navbar from "./components/NavBar/Navbar";
+// import Projects from "./components/Projects/Projects";
+import Main from "./components/MainPage/Main";
+import Contact from "./components/Contact/Contact";
+import BlogPage from "./components/Blogs/BlogPage";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Main/>
       <Intro />
       <Message />
-      <Question />
-      <Projects />
-      <Blogs />
-      <Events />
-      <Contact />
+      <Faq/>
+      {/* <Projects /> */}
+      <BlogPage/>
+      <Contact/>
       <Footer />
     </div>
   );

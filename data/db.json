@@ -1,0 +1,139 @@
+{
+    "blogs": [
+        {
+            "date": "August 7, 2021",
+            "blogTitle": "New features in v1",
+            "tags": "NEXT-JS TAILWIND GUIDE",
+            "blogBody": "An overview of the new features released in v1 - code block copy, multiple authors, frontmatter layout and more",
+            "anchor": "https://openlake-iitbh-blog.vercel.app/blog/new-features-in-v1"
+        },
+        {
+            "date": "May 2, 2021",
+            "blogTitle": "Introducing Multi-part Posts with Nested Routing",
+            "tags": "MULTI-AUTHOR NEXT-JS FEATURE",
+            "blogBody": "The blog template supports posts in nested sub-folders. This can be used to group posts of similar content e.g. a multi-part course. This post is itself an example of a nested route!",
+            "anchor": "https://openlake-iitbh-blog.vercel.app/blog/nested-route/introducing-multi-part-posts-with-nested-routing"
+        },
+        {
+            "date": "January 12, 2021",
+            "blogTitle": "Introducing Tailwind Nextjs Starter Blog",
+            "tags": "NEXT-JS TAILWIND GUIDE",
+            "blogBody": "Looking for a performant, out of the box template, with all the best in web technology to support your blogging needs? Checkout the Tailwind Nextjs Starter Blog template.",
+            "anchor": "https://openlake-iitbh-blog.vercel.app/blog/introducing-tailwind-nextjs-starter-blog"
+        },
+        {
+            "date": "December 21, 2020",
+            "blogTitle": "Deriving the OLS Estimator",
+            "tags": "NEXT-JS MATH OLS",
+            "blogBody": "How to derive the OLS Estimator with matrix notation and a tour of math typesetting using markdown with the help of KaTeX.",
+            "anchor": "https://openlake-iitbh-blog.vercel.app/blog/deriving-ols-estimator"
+        },
+        {
+            "date": "November 11, 2020",
+            "blogTitle": "Images in Next.js",
+            "tags": "NEXT-JS GUIDE",
+            "blogBody": "In this article we introduce adding images in the tailwind starter blog and the benefits and limitations of the next/image component.",
+            "anchor": "https://openlake-iitbh-blog.vercel.app/blog/guide-to-using-images-in-nextjs"
+        },
+        {
+            "date": "October 11, 2019",
+            "blogTitle": "Markdown Guide",
+            "tags": "GITHUB GUIDE",
+            "blogBody": "Markdown cheatsheet for all your blogging needs - headers, lists, images, tables and more! An illustrated guide based on GitHub Flavored Markdown.",
+            "anchor": "https://openlake-iitbh-blog.vercel.app/blog/github-markdown-guide"
+        },
+        {
+            "date": "August 15, 2018",
+            "blogTitle": "The Time Machine",
+            "tags": "WRITINGS BOOK REFLECTION",
+            "blogBody": "The Time Traveller (for so it will be convenient to speak of him) was expounding a recondite matter to us. His pale grey eyes shone and twinkled, and his usually pale face was flushed and animated...",
+            "anchor": "https://openlake-iitbh-blog.vercel.app/blog/the-time-machine"
+        },
+        {
+            "date": "July 15, 2017",
+            "blogTitle": "O Canada",
+            "tags": "HOLIDAY CANADA IMAGES ",
+            "blogBody": "The scenic lands of Canada featuring maple leaves, snow-capped mountains, turquoise lakes and Toronto. Take in the sights in this photo gallery exhibition and see how easy it is to replicate with some MDX magic and tailwind classes.",
+            "anchor": "https://openlake-iitbh-blog.vercel.app/blog/pictures-of-canada"
+        },
+        {
+            "date": "March 8, 2016",
+            "blogTitle": "Sample .md file",
+            "tags": "MARKDOWN CODE FEATURES",
+            "blogBody": "Example of a markdown file with code blocks and syntax highlighting",
+            "anchor": "https://openlake-iitbh-blog.vercel.app/blog/code-sample"
+        }
+    ],
+    "message": [
+        {
+            "id": "1",
+            "author": "ABC",
+            "description": "Since the arrival of OpenAI’s ChatGPT in November, the clever AI-powered chatbot has taken the world by storm as people take the tool for a spin while also speculating about how the technology might transform the workplace and wider society.But for the first time since ChatGPT landed toward the end of last year, visits to the chatbot’s website have dipped, analytics firm Similarweb said.",
+            "photo": "Rose-modified.png"
+        },
+        {
+            "id": "2",
+            "author": "BCD",
+            "description": "SpaceX has successfully launched a Falcon 9 booster for a record 16th time, highlighting once again the company’s ability to reuse the first-stage booster for multiple space missions.The Falcon 9 lifted off from the Kennedy Space Center at 11:58 p.m. ET on Sunday, carrying with it 22 next-generation satellites for SpaceX’s internet-from-space service, called Starlink.",
+            "photo": "Jasmine-modified.png"
+        },
+        {
+            "id": "3",
+            "author": "CDE",
+            "description": "At first glance, the Nintendo Switch seems like a kid’s system. The platform has, historically, been considered for children. However, as Nintendo has grown, so has its fan base. The company has worked to change this perspective and try to garner adult viewership. They’ve primarily done this by focusing on creating games and bringing in ports that focus on adult audiences.Although the system may not have all the capabilities of the PlayStation or Xbox, the Nintendo Switch can still bring any adult joy.",
+            "photo": "Tulip-modified.png"
+        },
+        {
+            "id": "4",
+            "author": "DEF",
+            "description": "The central processing unit (CPU), also known as the processor, is the very heart of your computer. Responsible for anything from running Netflix to assisting in complex AI tasks, it’s one of the few components without which your PC really can’t run. That’s why it’s so important that you buy one of the best processors available.However important the choice might be, deciding on a processor can be challenging.",
+            "photo": "Rose-modified.png"
+        },
+        {
+            "id": "5",
+            "author": "EFG",
+            "description": "As well as observing specific objects like distant galaxies and planets here in our solar system, the James Webb Space Telescope is also being used to perform wide-scale surveys of parts of the sky. These surveys observe large chunks of the sky to identify important targets like very distant, very early galaxies, as well as observe intriguing objects like black holes. And one such survey has recently identified the most distant active supermassive black hole seen so far.",
+            "photo": "Jasmine-modified.png"
+        },
+        {
+            "id": "6",
+            "author": "FGH",
+            "description": "If you’ve been holding out for an iMac loaded up with a new M3 chip, there’s bad news: it might be delayed until next year. It means an even longer wait for anyone who wants an all-in-one Apple computer with an upgraded chip — right now, the M1 chip in the current 24-inch iMac is over two years old.The news on the iMac postponement comes from the Power On newsletter published by journalist Mark Gurman, who has released accurate information about Apple’s upcoming products many times in the past.",
+            "photo": "Tulip-modified.png"
+        }
+    ],
+    "projects" : [
+        {
+            "id" : "1",
+            "title" : "CanonForces",
+            "author" : "Adarsh Anand",
+            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, omnis veritatis! Sint repellendus iste commodi aliquid vitae accusantium iure saepe assumenda. Suscipit praesentium magni ab doloremque earum facilis sit molestiae non cumque dolor esse, sed in aliquam eligendi recusandae ea maxime repudiandae porro itaque consectetur. Recusandae harum earum eaque itaque impedit! Sequi neque magni ullam facere quia dicta voluptatum animi!",
+            "photo" : "canonforces2.png",
+            "link" : "https://github.com/OpenLake/canonforces"
+        },
+        {
+            "id" : "2",
+            "title" : "Activity Tracker",
+            "author" : "Ambar",
+            "description" : "We spend a lot of their time on screens and it's quite easy to lose track of the time we spend digitally. There are existing solutions to track their life but most of them are either paid, steal personal data or aren't visually appealing. That's why we decided to build this project. It will collect data on Mobile as well as Desktop devices and show them in a Progressive Web App(PWA).",
+            "photo" : "activitytracker.png",
+            "link" : "https://github.com/OpenLake/Activity-Tracker"
+        },
+        {
+            "id" : "3",
+            "title" : "Photo Sharing",
+            "author" : "Aneesh Tickoo",
+            "description" : "Photo Sharing App is a web app that allows a user to get group photos that include them without having to keep or sort through all of the photos, saving them time and storage space. When a photo is uploaded, the app identifies the faces in it and arranges them according to the users who have been identified. Each identified user gets a separate album with all their photos allowing them to get the photos they need seamlessly. Upload group photos, arrange them by faces using ML and share them with ease.",
+            "photo" : "photosharing.png",
+            "link" : "https://github.com/OpenLake/Photo-Sharing-App"
+        },
+        {
+            "id" : "4",
+            "title" : "Knowledge Sharing Platform",
+            "author" : "Anshuman Dhiman",
+            "description" : "Knowledge sharing platform application aims to get the students acquainted with the courses, professors, evaluation schemes. The said things can be achieved via gathering course feedback, professor feedback, and previous year grading schemes. This can be done by making a portal (just like a blog site) where people can share their honest reviews without being scrutinized much. Getting reviews from mass makes it easy for one to choose the particular course and get the right information about that course.",
+            "photo" : "ksp.png",
+            "link" : "https://github.com/OpenLake/Knowledge-Sharing-Platform"
+        }
+    ]
+}

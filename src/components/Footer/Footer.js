@@ -18,22 +18,22 @@ const Footer = () => {
                 </div>
                 <div className="icon-list">
                     <div className="icon">
-                        <a href="www.youtube.com"><img src={ youtube } alt="Youtube" /></a>
+                        <a href="www.youtube.com"><img src={youtube} alt="Youtube" /></a>
                     </div>
                     <div className="icon">
-                        <a href="https://www.linkedin.com/company/openlake/?originalSubdomain=in"><img src={ linkedin } alt="LinkedIn" /></a>
+                        <a href="https://www.linkedin.com/company/openlake/?originalSubdomain=in"><img src={linkedin} alt="LinkedIn" /></a>
                     </div>
                     <div className="icon">
-                        <a href="www.twitter.com"><img src={ twitter } alt="Twitter" /></a>
+                        <a href="www.twitter.com"><img src={twitter} alt="Twitter" /></a>
                     </div>
                     <div className="icon">
-                        <a href="https://www.instagram.com/openlake_iitbhilai/"><img src={ instagram } alt="Instagram" /></a>
+                        <a href="https://www.instagram.com/openlake_iitbhilai/"><img src={instagram} alt="Instagram" /></a>
                     </div>
                     <div className="icon">
-                        <a href="https://github.com/OpenLake"><img src={ github } alt="GitHub" /></a>
+                        <a href="https://github.com/OpenLake"><img src={github} alt="GitHub" /></a>
                     </div>
                     <div className="icon">
-                        <a href="www.facebook.com"><img src={ facebook } alt="Facebook" /></a>
+                        <a href="www.facebook.com"><img src={facebook} alt="Facebook" /></a>
                     </div>
                 </div>
             </div>
@@ -42,5 +42,5 @@ const Footer = () => {
         </div>
     );
 }
- 
-export default Footer;
+
+export default Footer;

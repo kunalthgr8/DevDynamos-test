@@ -54,9 +54,10 @@
 .container-events .card .img-events{
     position: relative;
     width: 200px;
-    height: 260px;
+    /* height: 260px; */
     top: 5px;
     left: 45px;
+    margin-bottom: 50px;
     z-index: 1;
     /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); */
 }
@@ -90,4 +91,9 @@
 
 .content-events h2{
     margin: 5px;
+    margin-top: 0px;
+    width: 100%;
+    cursor: pointer;
+    z-index: 100;
+    color: purple;
 }

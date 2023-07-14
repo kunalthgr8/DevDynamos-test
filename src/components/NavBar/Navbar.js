@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div className="Navbar">
-      <img src={nav_logo} alt="OpenLake Logo" id="nav-logo" />
+      <a href='https://test-webwave.vercel.app/'><img src={nav_logo} alt="OpenLake Logo" id="nav-logo" /></a>
       <div className="nav-buttons">
         <Link className="nav-btn"  to="Intro" spy={true} smooth={true} offset={-100} duration={500}>HOME</Link>
         <Link className="nav-btn" to="Project" spy={true} smooth={true} offset={-100} duration={500}>PROJECT</Link>
@@ -31,10 +31,10 @@ const Navbar = () => {
           </a>
           {isDropdownOpen && (
             <div className="dropdown-menu">
-              <Link className="dropdown-item" to="Intro" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
-              <Link className="dropdown-item" to="Project" spy={true} smooth={true} offset={-100} duration={500}>Project</Link>
-              <Link className="dropdown-item" to="Blog" spy={true} smooth={true} offset={-100} duration={500}>Blog</Link>
-              <Link className="dropdown-item" to="Contacts" spy={true} smooth={true} offset={-100} duration={500}>Contact</Link>
+              <Link className="dropdown-item" to="Intro" spy={true} smooth={true} offset={-100} duration={500} onClick={toggleDropdown}>Home</Link>
+              <Link className="dropdown-item" to="Project" spy={true} smooth={true} offset={-100} duration={500} onClick={toggleDropdown}>Project</Link>
+              <Link className="dropdown-item" to="Blog" spy={true} smooth={true} offset={-100} duration={500} onClick={toggleDropdown}>Blog</Link>
+              <Link className="dropdown-item" to="Contacts" spy={true} smooth={true} offset={-100} duration={500} onClick={toggleDropdown}>Contact</Link>
             </div>
           )}
         </div>

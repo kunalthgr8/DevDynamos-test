@@ -1,9 +1,10 @@
 import FossOver from "../img/fossoverflow.png";
 import GSOC from "../img/gsoc.png";
 import Code4Gov from "../img/code4govtech.png";
-import './Events.css'
-
+import './Events.css';
 const Events = () => {
+    
+
     return (
 
         <div className="eventpage">
@@ -17,7 +18,7 @@ const Events = () => {
                         <img src={FossOver} alt="Foss OverFlow" />
                     </div>
                     <div className="content-events">
-                        <h2><a href="https://fossoverflow.dev/" target="_blank">Foss Overflow</a></h2>
+                        <h2><a href='https://fossoverflow.dev/' target="_blank">Foss Overflow</a></h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In mollis nunc sed id semper risus in. Odio euismod lacinia at quis risus sed vulputate odio ut.</p>
                     </div>
                 </div>
@@ -26,7 +27,7 @@ const Events = () => {
                         <img src={GSOC} alt="GSOC" />
                     </div>
                     <div className="content-events">
-                        <h2><a href="https://summerofcode.withgoogle.com/" target="_blank">GSoC</a></h2>
+                        <h2><a href='https://summerofcode.withgoogle.com/' target="_blank">GSoC</a></h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In mollis nunc sed id semper risus in. Odio euismod lacinia at quis risus sed vulputate odio ut.</p>
                     </div>
                 </div>
@@ -35,7 +36,7 @@ const Events = () => {
                         <img src={Code4Gov} alt="Code 4 GovTech" />
                     </div>
                     <div className="content-events">
-                        <h2><a href="https://www.codeforgovtech.in/" target="_blank">Code 4 GovTech</a></h2>
+                        <h2><a href='https://www.codeforgovtech.in/' target="_blank">Code 4 GovTech</a></h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In mollis nunc sed id semper risus in. Odio euismod lacinia at quis risus sed vulputate odio ut.</p>
                     </div>
                 </div>

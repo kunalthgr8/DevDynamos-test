@@ -117,9 +117,10 @@
         padding: 10px;
         justify-content: center;
         align-items: center;
-        border-radius: 15px;
-        width: 150px;
-        background-color: transparent ;
+        border-radius: 5px;
+        width: 30%;
+        margin: 10px;
+        background-color: #111827;
       }
       
       .dropdown-item {
@@ -128,7 +129,7 @@
         padding: 5px;
         font-family: 'Ubuntu';
         font-size: 18px;
-        border-bottom: 2px solid white;
+        /* border-bottom: 2px solid white; */
         border-radius: 10px;
         
         padding: 10px;

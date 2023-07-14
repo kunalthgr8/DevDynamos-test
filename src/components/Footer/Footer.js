@@ -11,11 +11,15 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className="footer">
+            {/* This is opening Hr tag for footer */}
             <hr className="footer-line" />
             <div className="footer-options">
+                {/* This is Openlake written */}
                 <div className="openlake">
                     OpenLake
                 </div>
+
+                {/* This is box for openlake Social media  */}
                 <div className="icon-list">
                     <div className="icon">
                         <a href="www.youtube.com"><img src={youtube} alt="Youtube" /></a>

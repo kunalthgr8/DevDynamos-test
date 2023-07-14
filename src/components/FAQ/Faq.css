@@ -22,7 +22,7 @@
   border: none;
   height: 10px;
   width: 150px;
-  background:#0056A4;
+  background: #0056A4;
 }
 
 .faq-questions-container {
@@ -91,7 +91,6 @@
 @media (max-width: 500px) {
   .accordion-item {
     margin-left: 30px;
-    /* margin-right: auto; */
     width: 90%;
   }
 }

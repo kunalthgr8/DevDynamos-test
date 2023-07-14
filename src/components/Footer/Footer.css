@@ -28,7 +28,6 @@
     font-weight: 600;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     text-align: center;
     width: max-content;
     -webkit-background-clip: text;
@@ -79,17 +78,20 @@
         margin: 5px 0;
         text-align: center;
     }
-    .footer-options{
+
+    .footer-options {
         display: flex;
         flex-wrap: wrap;
     }
-    .icon-list{
+
+    .icon-list {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
     }
-    .icon img{
+
+    .icon img {
         width: 70%;
         padding-left: 20px;
     }

@@ -7,6 +7,8 @@ import emailjs from 'emailjs-com';
 
 
 export default function Contact() {
+
+    // This code is written to send gmail to the owner when question asked by user
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
@@ -21,10 +23,18 @@ export default function Contact() {
     };
     return (
         <div className="contact-page" id="Contacts">
+
+            {/* This is Join Us Box */}
             <div className="contact-container">
+
+                {/* This code is Heading (Join Us)*/}
+
                 <div className="contact-heading">Join Us
                     <hr className="contact-hr"></hr>
                 </div>
+
+                {/* This is Github and LinkedIn box */}
+
                 <div className="options-contact">
                     <a href="https://github.com/OpenLake" target="_blank"><div className="icons-contact">
                         <img src={github_img} alt="Github"></img>
@@ -34,17 +44,23 @@ export default function Contact() {
                     </div></a>
                 </div>
             </div>
+
+            {/* This is Queries Box */}
+
             <div className="contact-container-2">
+
+                {/* This is Heading Box */}
+
                 <div className="contact-heading">Any Queries ?
                     <hr className="contact-hr"></hr>
                 </div>
+
+                {/* This is input Box for users */}
+
                 <div className="contact-form">
                     <form ref={form} onSubmit={sendEmail}>
-
                         <input type="text" name="name" placeholder="Your Full Name" required />
-
                         <input type="email" name="email" placeholder="Your Email" required />
-
                         <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
                         <button type="submit" className="btn-contact"> Send Message</button>
                     </form>

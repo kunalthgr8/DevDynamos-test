@@ -3,7 +3,6 @@ import nav_logo from "../img/openlakeLogo.png";
 import dropDown from "../img/dropdown.svg";
 import {Link} from 'react-scroll';
 import "./NavBar.css";
-// import "./index.css";
 
 const Navbar = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -29,6 +28,8 @@ const Navbar = () => {
               className={`white-dropdown ${isDropdownOpen ? 'rotate' : ''}`}
             />
           </a>
+
+          {/* This id dropdown menu  */}
           {isDropdownOpen && (
             <div className="dropdown-menu">
               <Link className="dropdown-item" to="Intro" spy={true} smooth={true} offset={-100} duration={500} onClick={toggleDropdown}>Home</Link>

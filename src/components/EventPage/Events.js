@@ -3,16 +3,23 @@ import GSOC from "../img/gsoc.png";
 import Code4Gov from "../img/code4govtech.png";
 import './Events.css';
 const Events = () => {
-    
+
 
     return (
 
         <div className="eventpage">
+
+            {/* This Is heading */}
+
             <div className='events-heading'>
                 Events
                 <hr className='events-hr'></hr>
             </div>
+
+            {/* This is main content box */}
+
             <div className='container-events'>
+                {/* This is Card for FossOverflow */}
                 <div className='card'>
                     <div className="img-events">
                         <img src={FossOver} alt="Foss OverFlow" />
@@ -22,6 +29,7 @@ const Events = () => {
                         <p>FOSS Overflow is a program by OpenLake and GDSC IIT Bhilai that helps students to get started with the world of open source by helping them build real world open sourced projects under guidance of awesome mentors.</p>
                     </div>
                 </div>
+                {/* This is Card for GSOC */}
                 <div className='card'>
                     <div className="img-events">
                         <img src={GSOC} alt="GSOC" />
@@ -31,6 +39,7 @@ const Events = () => {
                         <p>Google Summer of Code is a global, online program focused on bringing new contributors into open source software development. GSoC Contributors work with an open source organization on a 12+ week programming project under the guidance of mentors.</p>
                     </div>
                 </div>
+                {/* This is Card for CODE 4 GOVTECH */}
                 <div className='card'>
                     <div className="img-events">
                         <img src={Code4Gov} alt="Code 4 GovTech" />

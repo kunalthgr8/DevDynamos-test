@@ -1,6 +1,5 @@
 .project-container {
     color: white;
-    /* background-color: gray; */
     width: 60%;
     margin: 30px auto;
     border-radius: 20px;
@@ -16,7 +15,6 @@
 .project-title {
     width: 100%;
     padding: 10px 0;
-    /* background-color: gray; */
     border-radius: 20px 20px 0 0;
     text-align: center;
 }
@@ -29,7 +27,6 @@
     width: 25%;
     opacity: 0;
     line-height: 1.5rem;
-    /* background-color: orange; */
 }
 
 .profile_photo {
@@ -84,12 +81,6 @@
     background: #00C9F5;
 }
 
-
-
-
-
-
-
 @media screen and (max-width: 1200px) {
     .content {
         line-height: 1.2rem;
@@ -103,7 +94,6 @@
 
     .project-container {
         width: 70%;
-        /* height: 430px; */
     }
 }
 
@@ -121,6 +111,7 @@
     .project-container {
         width: 85%;
     }
+
     .content {
         width: 35%;
     }
@@ -180,6 +171,7 @@
     .content {
         line-height: 0.8rem;
     }
+
     .project-title {
         padding: 0px 0;
     }

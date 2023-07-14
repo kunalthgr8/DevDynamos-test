@@ -9,10 +9,13 @@ import "./Intro.css";
 const Intro = () => {
     return (
         <div className="intro" id="Intro">
+            {/* This box is for intro  */}
             <div className="intro-container-1">
+                {/* This box is for Logo */}
                 <div className="intro-logo">
                     <img src={Logo} alt="OpenLake Logo" id="intro-logo" />
                 </div>
+                {/* This box is for description */}
                 <div className="intro-para">
                     <h1 className="intro-heading">OpenLake</h1>
                     <hr></hr>
@@ -21,6 +24,7 @@ const Intro = () => {
                     </p>
                 </div>
             </div>
+            {/* This is to display stats of OpenLake */}
             <div className="intro-container-2">
                 <NumCard
                     icon={project_icon}

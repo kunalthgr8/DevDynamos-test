@@ -32,11 +32,10 @@ const Faq = () => {
   const [openItems, setOpenItems] = useState([]);
 
   const toggleAccordion = (index) => {
-    const isOpen = openItems.includes(index);
-    if (isOpen) {
-      setOpenItems(openItems.filter((item) => item !== index));
+    if (openItems.includes(index)) {
+      setOpenItems([]);
     } else {
-      setOpenItems([...openItems, index]);
+      setOpenItems([index]);
     }
   };
 

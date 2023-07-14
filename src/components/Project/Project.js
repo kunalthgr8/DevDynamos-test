@@ -9,7 +9,7 @@ const Project = () => {
     return (
         <div className="project">
             <div className="project-heading">
-                Message
+                Projects
                 <hr className="project-hr2"></hr>
             </div>
             {error && <div>{error}</div>}

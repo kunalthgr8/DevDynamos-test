@@ -44,6 +44,7 @@ const ProjectPage = (data) => {
                     title={item.title}
                     author={item.author}
                     description={item.description}
+                    link={item.link}
                     imgSrc={require(`../img/${item.photo}`)}
                 />
             )}
@@ -53,6 +54,7 @@ const ProjectPage = (data) => {
                     title={item.title}
                     author={item.author}
                     description={item.description}
+                    link={item.link}
                     imgSrc={require(`../img/${item.photo}`)}
                 />
             )}

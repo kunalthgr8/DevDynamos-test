@@ -49,6 +49,7 @@
         background: linear-gradient(to bottom, #2B70AF, #123B60);
         color: white;
         font-weight: 600;
+        cursor: pointer;
     }
 
 

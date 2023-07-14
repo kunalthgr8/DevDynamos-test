@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.eventpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #16384c;
+}
+
+.container-events {
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.container-events .card{
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background: #243562;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;}
+
+.container-events .card:hover { 
+    height: 420px;}
+
+.container-events .card .img-events{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);}
+
+.container-events .card .img-events img{
+   max-width: 100%;
+   border-radius: 4px;}
+
+.container-events .card .content-events{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;}
+
+.container-events .card:hover .content-events{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px; 
+    transition-delay: 0.3s;}

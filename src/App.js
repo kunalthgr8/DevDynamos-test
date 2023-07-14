@@ -7,6 +7,7 @@ import Contact from "./components/Contact/Contact";
 import BlogPage from "./components/Blogs/BlogPage";
 import Footer from "./components/Footer/Footer";
 import Project from "./components/Project/Project";
+import Events from "./components/EventPage/Events";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Faq/>
       <Project />
       <BlogPage/>
+      <Events />
       <Contact/>
       <Footer />
     </div>

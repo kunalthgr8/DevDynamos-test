@@ -1,0 +1,32 @@
+.project {
+    background: linear-gradient(180deg, #243562 0%, #000000 100%);
+    padding: 10px;
+}
+
+
+.project-heading {
+    font-size: 40px;
+    margin: 10px;
+    width: 80%;
+    padding-left: 10%;
+    font-weight: 700;
+    margin-top: 70px;
+
+}
+
+.project-hr2 {
+    margin-left: 0;
+    margin-top: 20px;
+    border: none;
+    height: 10px;
+    width: 150px;
+    background: #0056A4;
+}
+
+@media screen and (max-width: 460px) {
+
+    .project-heading {
+        padding-left: 5%;
+    }
+
+}

@@ -130,7 +130,7 @@
         {
             "id" : "4",
             "title" : "Knowledge Sharing Platform",
-            "author" : "Anshuman Dhiman",
+            "author" : "Anshuman",
             "description" : "Knowledge sharing platform application aims to get the students acquainted with the courses, professors, evaluation schemes. The said things can be achieved via gathering course feedback, professor feedback, and previous year grading schemes. This can be done by making a portal (just like a blog site) where people can share their honest reviews without being scrutinized much. Getting reviews from mass makes it easy for one to choose the particular course and get the right information about that course.",
             "photo" : "ksp.png",
             "link" : "https://github.com/OpenLake/Knowledge-Sharing-Platform"

@@ -7,10 +7,10 @@ const Events = () => {
     return (
 
         <div className="eventpage">
-            {/* <div className='events-heading'>
+            <div className='events-heading'>
                 Events
                 <hr className='events-hr'></hr>
-            </div> */}
+            </div>
             <div className='container-events'>
                 <div className='card'>
                     <div className="img-events">

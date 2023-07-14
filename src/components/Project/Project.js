@@ -7,7 +7,7 @@ const Project = () => {
     const { data, isPending, error } = useFetch('https://json-server-openlake.vercel.app/projects');
 
     return (
-        <div className="project">
+        <div className="project" id="Project">
             <div className="project-heading">
                 Projects
                 <hr className="project-hr2"></hr>

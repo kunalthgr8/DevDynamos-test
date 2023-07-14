@@ -7,7 +7,7 @@ const BlogPage = () => {
     const { data: blogs, isPending, error } = useFetch('https://json-server-openlake.vercel.app/blogs');
 
     return (
-        <div className="blogs">
+        <div className="blogs" id="Blog">
             <div className="head">
                 <div className='Blog-heading'>
                     Blogs

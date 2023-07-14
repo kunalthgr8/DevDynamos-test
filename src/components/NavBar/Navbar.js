@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import nav_logo from "../img/openlakeLogo.png";
 import dropDown from "../img/dropdown.svg";
+import {Link} from 'react-scroll';
 import "./NavBar.css";
 // import "./index.css";
 
@@ -15,10 +16,10 @@ const Navbar = () => {
     <div className="Navbar">
       <img src={nav_logo} alt="OpenLake Logo" id="nav-logo" />
       <div className="nav-buttons">
-        <a className="nav-btn">HOME</a>
-        <a className="nav-btn">PROJECT</a>
-        <a className="nav-btn">BLOG</a>
-        <a className="nav-btn">CONTACT</a>
+        <Link className="nav-btn"  to="Intro" spy={true} smooth={true} offset={-100} duration={500}>HOME</Link>
+        <Link className="nav-btn" to="Project" spy={true} smooth={true} offset={-100} duration={500}>PROJECT</Link>
+        <Link className="nav-btn" to="Blog" spy={true} smooth={true} offset={-100} duration={500}>BLOG</Link>
+        <Link className="nav-btn" to="Contacts" spy={true} smooth={true} offset={-100} duration={500}>CONTACT</Link>
         <div className="hamburger">
           <a onClick={toggleDropdown}>
             <img
@@ -30,10 +31,10 @@ const Navbar = () => {
           </a>
           {isDropdownOpen && (
             <div className="dropdown-menu">
-              <a className="dropdown-item">Home</a>
-              <a className="dropdown-item">Project</a>
-              <a className="dropdown-item">Blog</a>
-              <a className="dropdown-item">Contact</a>
+              <Link className="dropdown-item" to="Intro" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
+              <Link className="dropdown-item" to="Project" spy={true} smooth={true} offset={-100} duration={500}>Project</Link>
+              <Link className="dropdown-item" to="Blog" spy={true} smooth={true} offset={-100} duration={500}>Blog</Link>
+              <Link className="dropdown-item" to="Contacts" spy={true} smooth={true} offset={-100} duration={500}>Contact</Link>
             </div>
           )}
         </div>

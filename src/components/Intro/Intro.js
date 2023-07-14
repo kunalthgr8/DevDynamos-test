@@ -8,7 +8,7 @@ import "./Intro.css";
 
 const Intro = () => {
     return (
-        <div className="intro">
+        <div className="intro" id="Intro">
             <div className="intro-container-1">
                 <div className="intro-logo">
                     <img src={Logo} alt="OpenLake Logo" id="intro-logo" />

@@ -10,7 +10,8 @@ const BlogPage = () => {
         <div className="blogs" id="Blog">
             <div className="head">
                 <div className='Blog-heading'>
-                    Blogs
+                    <a href="https://openlake-iitbh-blog.vercel.app" target="_blank">Blogs</a>
+                    
                     <hr className='Blog-hr'></hr>
                 </div>
             </div>

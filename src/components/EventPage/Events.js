@@ -19,7 +19,7 @@ const Events = () => {
                     </div>
                     <div className="content-events">
                         <h2><a href='https://fossoverflow.dev/' target="_blank">Foss Overflow</a></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In mollis nunc sed id semper risus in. Odio euismod lacinia at quis risus sed vulputate odio ut.</p>
+                        <p>FOSS Overflow is a program by OpenLake and GDSC IIT Bhilai that helps students to get started with the world of open source by helping them build real world open sourced projects under guidance of awesome mentors.</p>
                     </div>
                 </div>
                 <div className='card'>
@@ -28,7 +28,7 @@ const Events = () => {
                     </div>
                     <div className="content-events">
                         <h2><a href='https://summerofcode.withgoogle.com/' target="_blank">GSoC</a></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In mollis nunc sed id semper risus in. Odio euismod lacinia at quis risus sed vulputate odio ut.</p>
+                        <p>Google Summer of Code is a global, online program focused on bringing new contributors into open source software development. GSoC Contributors work with an open source organization on a 12+ week programming project under the guidance of mentors.</p>
                     </div>
                 </div>
                 <div className='card'>
@@ -37,7 +37,7 @@ const Events = () => {
                     </div>
                     <div className="content-events">
                         <h2><a href='https://www.codeforgovtech.in/' target="_blank">Code 4 GovTech</a></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In mollis nunc sed id semper risus in. Odio euismod lacinia at quis risus sed vulputate odio ut.</p>
+                        <p>Code for GovTech (C4GT)  is a unique program aimed at creating India's first active open-source  community of coders that can build and contribute to global Digital Public Goods. Use technology to create large scale impact.</p>
                     </div>
                 </div>
             </div>

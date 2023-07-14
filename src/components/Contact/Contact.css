@@ -123,6 +123,8 @@ textarea {
     border: none;
     border-radius: 6px;
     margin-bottom: 10px;
+    /* box-shadow: -2px -2px 2px 2px white; */
+    border: 2px solid gray;
     margin-top: 15px;
 }
 .btn-contact:hover{

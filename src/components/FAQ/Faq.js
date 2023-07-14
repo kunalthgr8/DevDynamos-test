@@ -4,28 +4,28 @@ import "./Faq.css";
 const Faq = () => {
   const data = [
     {
-      question: "Accordion 1",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      question: "How Do We Work ?",
+      answer: "Our main work is to help people who are struggling with Open Source development."
     },
     {
-      question: "Accordion 2",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      question: "What Is Our Function ?",
+      answer: "Our function is to contribute towards Open Source development and preaching others."
     },
     {
-      question: "Accordion 3",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      question: "How Should I Participate ?",
+      answer: "Fill in below the contact form and our members will contact you shortly."
     },
     {
-      question: "Accordion 4",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      question: "What Is Our Main Event ?",
+      answer: "Our main events are FOSS Overflow (conducted by us) and GSOC (conducted by Google)."
     },
     {
-      question: "Accordion 5",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      question: "Is There Any Registration Fee?",
+      answer: "No, there is no registration fee as for now. You are free to join without any Terms and Conditions.."
     },
     {
-      question: "Accordion 6",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      question: "What Are Perks of Joining?",
+      answer: "Collaborate in projects and discussion with the community members."
     }
   ];
 

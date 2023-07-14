@@ -21,10 +21,10 @@ const Footer = () => {
                         <a href="www.youtube.com"><img src={youtube} alt="Youtube" /></a>
                     </div>
                     <div className="icon">
-                        <a href="https://www.linkedin.com/company/openlake/?originalSubdomain=in"><img src={linkedin} alt="LinkedIn" /></a>
+                        <a href="https://in.linkedin.com/company/openlake"><img src={linkedin} alt="LinkedIn" /></a>
                     </div>
                     <div className="icon">
-                        <a href="www.twitter.com"><img src={twitter} alt="Twitter" /></a>
+                        <a href="https://twitter.com/OpenLakeClub?t=Q5oiM2GItAuRV5f7je-vnQ&s=08"><img src={twitter} alt="Twitter" /></a>
                     </div>
                     <div className="icon">
                         <a href="https://www.instagram.com/openlake_iitbhilai/"><img src={instagram} alt="Instagram" /></a>

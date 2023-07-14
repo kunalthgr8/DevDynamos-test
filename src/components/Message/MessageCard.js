@@ -12,7 +12,8 @@ const MessageCard = (messages) => {
                     <img src={require(`../img/${message.photo}`)} alt="Profile" className='message-profile-pic' />
                     <p className='message-description'>{message.description}</p>
                     <hr className='message-hr' />
-                    <h3 className='message-author'>{message.author}<span className='message-span'>@kunal</span></h3>
+                    <h3 className='message-author'>{message.author}
+                    <span className='message-span'><a href={ message.githubId } target='_blank'>@{message.author}</a></span></h3>
                 </div>
             ))}
         </div>

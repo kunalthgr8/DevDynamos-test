@@ -26,12 +26,12 @@ export default function Contact() {
                     <hr className="contact-hr"></hr>
                 </div>
                 <div className="options-contact">
-                    <div className="icons-contact">
-                        <a href="mailto:kunalsingla@iitbhilai.ac.in"><img src={github_img} alt="Github"></img></a>
-                    </div>
-                    <div className="icons-contact">
-                        <a href="mailto:kunalsingla@iitbhilai.ac.in"><img src={linkedin_img} alt="Linked In "></img></a>
-                    </div>
+                    <a href="https://github.com/OpenLake" target="_blank"><div className="icons-contact">
+                        <img src={github_img} alt="Github"></img>
+                    </div></a>
+                    <a href="https://in.linkedin.com/company/openlake" target="_blank"><div className="icons-contact">
+                        <img src={linkedin_img} alt="Linked In "></img>
+                    </div></a>
                 </div>
             </div>
             <div className="contact-container-2">

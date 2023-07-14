@@ -4,7 +4,7 @@ import './ProjectIndex.css';
 
 const Project = () => {
 
-    const { data, isPending, error } = useFetch('http://localhost:8000/projects');
+    const { data, isPending, error } = useFetch('https://json-server-openlake.vercel.app/projects');
 
     return (
         <div className="project" id="Project">

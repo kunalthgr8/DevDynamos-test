@@ -6,7 +6,7 @@ const ProjectSite = () => {
 
     const { id } = useParams();
 
-    const { data, isPending, error } = useFetch("http://localhost:8000/projects/" + id);
+    const { data, isPending, error } = useFetch("https://json-server-openlake.vercel.app/projects/" + id);
 
     const redirectToUrl = (link) => {
         window.open(link, '_blank');

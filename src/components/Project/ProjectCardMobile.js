@@ -1,12 +1,10 @@
 import { useState } from 'react';
 import { motion } from "framer-motion";
+import { Link } from 'react-router-dom';
 import "./ProjectCardMobile.css";
 
 const ProjectCardMobile = (props) => {
 
-    const redirectToUrl = (link) => {
-        window.location.href = link;
-    };
 
     const [isHovering, setIsHovering] = useState(false);
 
@@ -25,7 +23,7 @@ const ProjectCardMobile = (props) => {
                 </motion.p>
                 <motion.div className="content-mobile" animate={{ position: isHovering ? "relative" : "absolute", opacity: isHovering ? 1 : 0, color: isHovering ? "rgba(255, 255, 255)" : "rgba(255, 255, 255, 0)" }}>
                     <p>{props.description}</p>
-                    <motion.button className='project-btn-mobile' animate={{ width: isHovering ? "80%" : "50%", boxShadow: isHovering ? "0px 3px 5px 0px black" : "" }} transition={{ delay: 0.5 }} onClick={() => redirectToUrl(props.link)}>Try Now</motion.button>
+                    <motion.button className='project-btn-mobile' animate={{ width: isHovering ? "80%" : "50%", boxShadow: isHovering ? "0px 3px 5px 0px black" : "" }} transition={{ delay: 0.5 }} ><Link to={`/projects/${props.id}`} className='link-reset'>Try Now</Link></motion.button>
                 </motion.div>
             </div>
         </motion.div>

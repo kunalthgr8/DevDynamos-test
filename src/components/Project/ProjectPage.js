@@ -12,7 +12,6 @@ const ProjectPage = (data) => {
 
     const responsive = {
         superLargeDesktop: {
-            // the naming can be any, depends on you.
             breakpoint: { max: 4000, min: 3000 },
             items: 1
         },
@@ -34,8 +33,6 @@ const ProjectPage = (data) => {
     const dataArray = obj.data;
 
     const projects = dataArray.map((item) => (
-        // {isLarge && (<ProjectCard id={item.id} title={item.title} author={item.author} description={item.description} imgSrc={require(`./img/${item.photo}`)})/>
-        // {isSmall && (<ProjectCardMobile id={item.id} title={item.title} author={item.author} description={item.description} imgSrc={require(`./img/${item.photo}`)}/>)}
 
         <React.Fragment key={item.id}>
             {isLarge && (

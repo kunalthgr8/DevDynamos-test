@@ -4,7 +4,7 @@ import BlogList from "./BlogList";
 
 const BlogPage = () => {
 
-    const { data: blogs, isPending, error } = useFetch('https://json-server-openlake.vercel.app/blogs');
+    const { data: blogs, isPending, error } = useFetch('http://localhost:8000/blogs');
 
     return (
         <div className="blogs" id="Blog">

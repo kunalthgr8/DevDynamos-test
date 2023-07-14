@@ -4,7 +4,7 @@ import './Message.css';
 
 const Message = () => {
 
-    const { data: messages, isPending, error } = useFetch('https://json-server-openlake.vercel.app/message');
+    const { data: messages, isPending, error } = useFetch('http://localhost:8000/message');
 
     return (
         <div className="message">

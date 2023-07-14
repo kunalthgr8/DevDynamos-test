@@ -8,21 +8,35 @@ import BlogPage from "./components/Blogs/BlogPage";
 import Footer from "./components/Footer/Footer";
 import Project from "./components/Project/Project";
 import Events from "./components/EventPage/Events";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ProjectSite from "./components/ProjectSite/ProjectSite";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Main />
-      <Intro />
-      <Message />
-      <Faq />
-      <Project />
-      <BlogPage />
-      <Events />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <div>
+          <Routes>
+            <Route exact path="/"
+              element={
+                <div>
+                  <Main />
+                  <Intro />
+                  <Message />
+                  <Faq />
+                  <Project />
+                  <BlogPage />
+                  <Events />
+                  <Contact />
+                  <Footer />
+                </div>} />
+            <Route exact path="/projects/:id" element={<ProjectSite />} />
+            <Route path="*" element={<div>Page Not Found</div>} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
 }
 

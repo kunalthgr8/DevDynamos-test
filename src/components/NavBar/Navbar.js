@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <div className="Navbar">
-      <a href='https://test-webwave.vercel.app/'><img src={nav_logo} alt="OpenLake Logo" id="nav-logo" /></a>
+      <a href='/'><img src={nav_logo} alt="OpenLake Logo" id="nav-logo" /></a>
       <div className="nav-buttons">
         <Link className="nav-btn"  to="Intro" spy={true} smooth={true} offset={-100} duration={500}>HOME</Link>
         <Link className="nav-btn" to="Project" spy={true} smooth={true} offset={-100} duration={500}>PROJECT</Link>

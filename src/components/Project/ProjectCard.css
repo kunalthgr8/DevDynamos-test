@@ -46,6 +46,10 @@
     cursor: pointer;
 }
 
+.link-reset {
+    color: inherit;
+    text-decoration: none;
+}
 
 
 
@@ -53,6 +57,7 @@
     background: linear-gradient(to bottom, #2572FB, #6812CB);
     min-width: 50px;
     min-height: 50px;
+    z-index: 2;
 }
 
 .react-multiple-carousel__arrow--left {

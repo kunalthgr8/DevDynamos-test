@@ -87,3 +87,7 @@
     cursor: pointer;
     color: purple;
 }
+
+.content-events h2{
+    margin: 5px;
+}
